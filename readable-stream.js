@@ -1,7 +1,8 @@
 var http = require('http');
+// Call the 'fs' module to read files
 var fs = require('fs');
 
-// Creating a readable stream, pass in the file you want to read
+// Creating a readable stream, pass in the file you want to read, third parameter 'utf8' will encode it to plain text
 var myReadStream = fs.createReadStream(__dirname + '/loremText.txt', 'utf8');
 
 // on.() is an event. We pass in the data from our stream, and use a callback function to handle that data chunk
