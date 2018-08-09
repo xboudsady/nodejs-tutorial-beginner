@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "name": "node-js-tut",
+  "version": "1.0.0",
+  "description": "a little test app",
+  "main": "app.js",
+  "repository": "https://github.com/xboudsady/nodejs-tutorial-beginner.git",
+  "author": "Xayaseth Boudsady <boudsadyx@gmail.com>",
+  "license": "MIT"
+}
